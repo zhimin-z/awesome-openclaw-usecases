@@ -17,8 +17,9 @@ This workflow turns your agent into a research reading assistant:
 
 ## How to Set it Up
 
-1. Deploy Prismer with Docker (the arXiv server starts automatically):
+1. Clone and deploy [Prismer](https://github.com/Prismer-AI/Prismer) with Docker (the arXiv server starts automatically):
 ```bash
+git clone https://github.com/Prismer-AI/Prismer.git && cd Prismer
 docker compose -f docker/docker-compose.dev.yml up
 ```
 

@@ -17,8 +17,9 @@ This workflow turns your agent into a LaTeX writing assistant with instant compi
 
 ## How to Set it Up
 
-1. Deploy Prismer with Docker (the LaTeX server with full TeX Live starts automatically):
+1. Clone and deploy [Prismer](https://github.com/Prismer-AI/Prismer) with Docker (the LaTeX server with full TeX Live starts automatically):
 ```bash
+git clone https://github.com/Prismer-AI/Prismer.git && cd Prismer
 docker compose -f docker/docker-compose.dev.yml up
 ```
 
